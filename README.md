@@ -73,7 +73,7 @@ notes_api/
 
 ```bash
 <<<<<<< HEAD
-git clone https://github.com/YOUR_USERNAME/notes_api.git
+git clone https://github.com/gayatrivaishnavvvv/notes_api.git
 =======
 git clone https://github.com/gayatrivaishnavvvv/notes_api.git
 >>>>>>> origin/main
@@ -114,7 +114,7 @@ npm run dev
 *Expected output:*
 
 ```plaintext
-⚙️ Server is running at port: 5000
+⚙️ Server is running at port: 3000
 MongoDB Connected! DB HOST: cluster0-shard-00-00.xxxx.mongodb.net
 ```
 
@@ -147,7 +147,7 @@ npm run dev
 4. Open `http://localhost:5173/` in your browser.
 
 <<<<<<< HEAD
-> Note: The backend API defaults to port `5000`. If your frontend uses a different port in `frontend/src/services/api.js`, update the `baseURL` accordingly.
+> Note: The backend API defaults to port `3000`. If your frontend uses a different port in `frontend/src/services/api.js`, update the `baseURL` accordingly.
 
 ## 📡 API Reference
 
@@ -167,20 +167,8 @@ npm run dev
 | PUT | `/notes/:id` | Update an existing note by ID | `{ "title": "Updated Title", "content": "Updated details..." }` |
 | DELETE | `/notes/:id` | Delete a note by ID | N/A |
 
-<<<<<<< HEAD
-## 📸 Screenshots
 
-*(Optionally replace these placeholders with your actual app screenshots!)*
 
-**Light Mode**
-
-![Light Mode Screenshot](./screenshots/light-mode.png)
-
-**Dark Mode**
-
-![Dark Mode Screenshot](./screenshots/dark-mode.png)
-=======
->>>>>>> origin/main
 
 ## 🔒 Environment Variables & Security
 
