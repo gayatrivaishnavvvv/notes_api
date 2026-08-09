@@ -72,11 +72,10 @@ notes_api/
 ### 1. Clone the Repository
 
 ```bash
-<<<<<<< HEAD
+
 git clone https://github.com/gayatrivaishnavvvv/notes_api.git
-=======
 git clone https://github.com/gayatrivaishnavvvv/notes_api.git
->>>>>>> origin/main
+ origin/main
 cd notes_api
 ```
 
@@ -97,13 +96,13 @@ npm install
 3. Create a `.env` file in `backend/` with:
 
 ```env
-<<<<<<< HEAD
+
 PORT=5000
-=======
+
 PORT=3000
->>>>>>> origin/main
+ origin/main
 MONGODB_URI=mongodb+srv://<your_user>:<your_password>@cluster0.xxx.mongodb.net
-```
+
 
 4. Run the development server:
 
@@ -146,19 +145,19 @@ npm run dev
 
 4. Open `http://localhost:5173/` in your browser.
 
-<<<<<<< HEAD
+
 > Note: The backend API defaults to port `3000`. If your frontend uses a different port in `frontend/src/services/api.js`, update the `baseURL` accordingly.
 
 ## 📡 API Reference
 
 **Base URL**: `http://localhost:5000/api/v1`
-=======
+
 > Note: The backend API defaults to port `3000`. If your frontend uses a different port in `frontend/src/services/api.js`, update the `baseURL` accordingly.
 
 ## 📡 API Reference
 
 **Base URL**: `http://localhost:3000/api/v1`
->>>>>>> origin/main
+ origin/main
 
 | Method | Endpoint | Description | Request Body Example |
 | --- | --- | --- | --- |
